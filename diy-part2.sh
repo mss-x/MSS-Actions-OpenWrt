@@ -14,6 +14,29 @@
 sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
 #修改机器名称
 sed -i 's/OpenWrt/MSS-X/g' package/base-files/files/bin/config_generate
+#####################################################################
+#移除不用软件包
+#解锁网易云灰色歌曲3合1新版本
+rm -rf package/lean/luci-app-unblockmusic
+#广告屏蔽大师Plus +
+rm -rf package/lean/luci-app-adbyby-plus
+#访问时间控制？
+rm -rf package/lean/luci-app-accesscontrol
+#UU网游加速器
+rm -rf package/lean/luci-app-uugamebooster
+#迅雷快鸟
+rm -rf package/lean/luci-app-xlnetacc
+#网络共享
+rm -rf package/lean/luci-app-samba
+#FTP 服务器
+rm -rf package/lean/luci-app-vsftpd
+#qBittorrent
+rm -rf package/lean/luci-app-qbittorrent
+#IPSec VPN 服务器
+rm -rf package/lean/luci-app-ipsec-vpnd
+#rm -rf feeds/packages/net/smartdns
+#####################################################################
 #添加额外软件包
-##git clone https://github.com/P3TERX/xxx package/xxx
+#git clone https://github.com/P3TERX/xxx package/xxx
 #git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+#####################################################################
