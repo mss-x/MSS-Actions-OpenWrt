@@ -24,3 +24,23 @@ CONFIG_PACKAGE_wget=y
 # 添加主题:
 #CONFIG_PACKAGE_luci-theme-argon=y
 # 添加插件:
+#Turbo ACC 网络加速
+CONFIG_PACKAGE_luci-app-turboacc=y
+#通用即插即用UPnP
+CONFIG_PACKAGE_luci-app-upnp=y
+#KMS服务器设置
+CONFIG_PACKAGE_luci-app-vlmcsd=y
+#解锁网易云灰色歌曲
+CONFIG_PACKAGE_luci-app-unblockneteasemusic=y
+#ZeroTier内网穿透
+CONFIG_PACKAGE_luci-app-zerotier=y
+#AdGuard home广告过滤
+CONFIG_PACKAGE_luci-app-adguardhome=y
+#动态域名DDNS
+CONFIG_PACKAGE_luci-app-ddns=y
+#文件传输（可web安装ipk包）
+CONFIG_PACKAGE_luci-app-filetransfer=y
+#京东签到服务
+CONFIG_PACKAGE_luci-app-jd-dailybonus=y
+#Web管理页面设置
+CONFIG_PACKAGE_luci-app-webadmin=y
