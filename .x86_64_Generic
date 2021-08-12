@@ -19,9 +19,6 @@ CONFIG_PACKAGE_wget=y
 # 添加主题+
 CONFIG_PACKAGE_luci-theme-argon=y
 # 添加插件:
-#解锁网易云灰色歌曲?
 CONFIG_PACKAGE_luci-app-unblockneteasemusic=y
-#AdGuard home广告过滤?
 CONFIG_PACKAGE_luci-app-adguardhome=y
-#京东签到服务+?
 CONFIG_PACKAGE_luci-app-jd-dailybonus=y
