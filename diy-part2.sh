@@ -24,14 +24,14 @@ rm -rf package/lean/luci-app-accesscontrol
 rm -rf package/lean/luci-app-unblockmusic
 #网络唤醒?
 rm -rf package/lean/luci-app-wol
-rm -rf package/lean/wol
+＃rm -rf package/lean/wol
 #UU网游加速器
 rm -rf package/lean/luci-app-uugamebooster
 #迅雷快鸟
 rm -rf package/lean/luci-app-xlnetacc
 #网络共享?
 rm -rf package/lean/luci-app-samba
-rm -rf package/lean/autosamba
+＃rm -rf package/lean/autosamba
 #FTP 服务器
 rm -rf package/lean/luci-app-vsftpd
 #qBittorrent
