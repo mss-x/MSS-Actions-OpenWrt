@@ -40,6 +40,5 @@ rm -rf package/lean/luci-app-qbittorrent
 rm -rf package/lean/luci-app-ipsec-vpnd
 #####################################################################
 #添加额外软件包
-#git clone https://github.com/P3TERX/xxx package/xxx
 git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
