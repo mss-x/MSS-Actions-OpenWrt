@@ -21,17 +21,17 @@ rm -rf package/lean/luci-app-adbyby-plus
 #访问时间控制
 rm -rf package/lean/luci-app-accesscontrol
 #解锁网易云灰色歌曲3合1新版本
-rm -rf package/lean/luci-app-unblockmusic
+#rm -rf package/lean/luci-app-unblockmusic
 #网络唤醒?
-rm -rf package/lean/luci-app-wol
-＃rm -rf package/lean/wol
+#rm -rf package/lean/luci-app-wol
+#rm -rf package/lean/wol
 #UU网游加速器
 rm -rf package/lean/luci-app-uugamebooster
 #迅雷快鸟
 rm -rf package/lean/luci-app-xlnetacc
 #网络共享?
 #rm -rf package/lean/luci-app-samba
-rm -rf package/lean/samba36-server
+#rm -rf package/lean/samba36-server
 #FTP 服务器
 rm -rf package/lean/luci-app-vsftpd
 #qBittorrent
@@ -40,5 +40,5 @@ rm -rf package/lean/luci-app-qbittorrent
 rm -rf package/lean/luci-app-ipsec-vpnd
 #####################################################################
 #添加额外软件包
-git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
+#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
