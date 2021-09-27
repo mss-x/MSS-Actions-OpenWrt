@@ -20,7 +20,7 @@ rm -rf package/lean/luci-app-adbyby-plus
 #访问时间控制
 rm -rf package/lean/luci-app-accesscontrol
 #解锁网易云灰色歌曲3合1新版本
-rm -rf package/lean/luci-app-unblockmusic
+#rm -rf package/lean/luci-app-unblockmusic
 #UU网游加速器
 rm -rf package/lean/luci-app-uugamebooster
 #迅雷快鸟
@@ -36,4 +36,4 @@ rm -rf package/lean/luci-app-ipsec-vpnd
 #rm -rf package/lean/samba36-server
 #网络唤醒?
 #rm -rf package/lean/luci-app-wol
-#rm -rf package/lean/wol
+#rm -rf package/lean/wo
