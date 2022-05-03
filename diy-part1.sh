@@ -15,8 +15,8 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
 #添加额外软件包
+git clone https://github.com/MrH723/openwrt-packages/tree/packages/luci-app-passwall.git package/luci-app-passwall
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb #helloworld依赖
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr #helloworld
