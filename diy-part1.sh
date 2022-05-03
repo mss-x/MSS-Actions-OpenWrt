@@ -23,4 +23,4 @@
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 # Lienol/openwrt-package
 src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
-src-git lienol https://github.com/xiaorouji/openwrt-package' feeds.conf.default
+#src-git lienol https://github.com/xiaorouji/openwrt-package' feeds.conf.default
